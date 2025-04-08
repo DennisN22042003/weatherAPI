@@ -4,6 +4,10 @@ This project demonstrates how to build a **Weather API** in **Java** using **Spr
 
 ---
 
+![UML diagram](./weather-api.png)
+
+---
+
 ## 🚀 Project Objectives
 
 - Integrate a 3rd-party weather API (like Visual Crossing)
@@ -41,3 +45,4 @@ To avoid redundant API calls and speed up responses:
 
 ```java
 redisTemplate.opsForValue().set("weather:Nairobi", responseBody, 12, TimeUnit.HOURS);
+
