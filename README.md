@@ -10,7 +10,7 @@ This project demonstrates how to build a **Weather API** in **Java** using **Spr
 
 ## 🚀 Project Objectives
 
-- Integrate a 3rd-party weather API (like Visual Crossing)
+- Integrate a 3rd-party weather API (like Visual Crossing) or any relevant
 - Cache responses using **Redis**
 - Securely manage secrets with **environment variables**
 - Handle errors and invalid inputs gracefully
